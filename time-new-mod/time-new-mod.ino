@@ -81,7 +81,7 @@ void loop()
           display.setSegments(&segto, 1, 1);
 //        }
         
-        if (time[0] >= endtime*3600)
+        if (time[0] >= endtime*7200)
         {
           flag = false;
         }
@@ -97,7 +97,7 @@ void loop()
         {
           digitalWrite(Relay2, HIGH);
         }
-        if (time[0]/100 == 2530)
+        if (time[0]/100 == 2522)
         {
           digitalWrite(Relay2, LOW);
         }
@@ -105,7 +105,7 @@ void loop()
         {
           digitalWrite(Relay3, HIGH);
         }
-        if (time[0]/100 == 2850)
+        if (time[0]/100 == 2833)
         {
           digitalWrite(Relay3, LOW);
         }
@@ -113,7 +113,7 @@ void loop()
         {
           digitalWrite(Relay5, HIGH);
         }
-        if (time[0]/100 == 2945)//2960
+        if (time[0]/100 == 2930)//2960
         {
           digitalWrite(Relay5, LOW);
         }
@@ -121,7 +121,7 @@ void loop()
         {
           digitalWrite(Relay4, HIGH);
         }
-        if (time[0]/100 == 3040)
+        if (time[0]/100 == 3025)
         {
           digitalWrite(Relay4, LOW);
         }
@@ -138,7 +138,7 @@ void loop()
         {
           digitalWrite(Relay7, HIGH);
         }
-        if (time[0]/100 == 3500)
+        if (time[0]/100 == 3493)
         {
           digitalWrite(Relay7, LOW);
         }
@@ -146,7 +146,7 @@ void loop()
         {
           digitalWrite(Relay8, HIGH);
         }
-        if (time[0]/100 == 3600)
+        if (time[0]/100 == 3582)
         {
           digitalWrite(Relay8, LOW);
         }
@@ -154,7 +154,7 @@ void loop()
         {
           digitalWrite(Relay9, HIGH);
         }
-        if (time[0]/100 == 3943)
+        if (time[0]/100 == 3933)
         {
           digitalWrite(Relay9, LOW);
         }

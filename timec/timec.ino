@@ -97,11 +97,11 @@ void loop()
         {
           digitalWrite(Relay1, LOW);
         }
-        if (time[0]/100 == 3701)
+        if (time[0]/100 == 3699)
         {
           digitalWrite(Relay2, HIGH);
         }
-        if (time[0]/100 == 3746)
+        if (time[0]/100 == 3744)
         {
           digitalWrite(Relay2, LOW);
         }
