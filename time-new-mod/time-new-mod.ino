@@ -154,7 +154,7 @@ void loop()
         {
           digitalWrite(Relay9, HIGH);
         }
-        if (time[0]/100 == 3933)
+        if (time[0]/100 == 3938)
         {
           digitalWrite(Relay9, LOW);
         }

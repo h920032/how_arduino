@@ -89,19 +89,19 @@ void loop()
           //myservo.attach(95);
           //digitalWrite(4, LOW);
         //}
-        if (time[0]/100 == 3698)
+        if (time[0]/100 == 3708)
         {
           digitalWrite(Relay1, HIGH);
         }
-        if (time[0]/100 == 3743)
+        if (time[0]/100 == 3753)
         {
           digitalWrite(Relay1, LOW);
         }
-        if (time[0]/100 == 3699)
+        if (time[0]/100 == 3709)
         {
           digitalWrite(Relay2, HIGH);
         }
-        if (time[0]/100 == 3744)
+        if (time[0]/100 == 3754)
         {
           digitalWrite(Relay2, LOW);
         }
